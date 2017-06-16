@@ -24,6 +24,7 @@ function tearDownDb() {
         .then(result => resolve(result))
         .catch(err => reject(err))
 });
+}
 
 function seedBlogData() {
     console.info('seeding blog data');
@@ -241,6 +242,7 @@ describe('blog posts API resource', function() {
                     });
                 });
 });
+
 
                
 
