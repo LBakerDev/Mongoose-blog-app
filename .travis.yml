@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:serene-mesa-36442
+  provider: heroku
+  api_key:
+    secure: UgkqqsgByrA3+tWjvBqdUf+VqFz5/QgsQd0oeitN14b1/vSwy3aJDptG/mCIhy8z0vhgTsqNEHazhBajuRx0pG9f06LjSr5Tb5puwxya3v4hg8zRLnE/JjUqj6dxh3vXX6hX8juNRV9IsmMUAcorZQRB99xiwTiOie9ki0iuCzH3tq6WdoaaVlc0SpTpRsEPLPHwbLoHHCCPZ6CeXdQ274FFKs0tKr7HQj2ydV//iEy1ulW+9/VMuRkhKR7p8HSDoKyezBFlbEvhVVNV19jPvoJdEUwOg7wA1X9OuTy5jJLteMhqzl50zhEsifGXPdAVZ+91qJGTpDoooDXttot/4nW1eIiZU4UbzhOH1bQeRsFPgW8sczSvrlREhx/TYGWez4oQ3p3r4NMYjL0pud9WjuKou0+1uph1ZWr2ZKe3u92O2EJs7AvJYkdioxlWTWcxT1PAlAvnRkBNrK3njNk7oImAakGdCH59iia8PIHbVTiSyIggL8qJ0j/KaEHJbS8SSCgwcKrwaCiL7HkZOhF0mlnBPH1xwBS80Ckw6+J2usVfnHRWxsvBtnbpaJW7UFtdG2elybEldfGyrl23OqShEGI8UjP9FdNg0F3BeVmDQurETw9LNXCHVYTLlcehsHkfCCT78peptXdbk1tuPI4U/z2/yxiZPeeqisdCO8GKvaE=
+  app: serene-mesa-36442
+  on:
+    repo: naeroled/Mongoose-blog-app
